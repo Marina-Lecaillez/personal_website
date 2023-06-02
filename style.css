@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'megan_june';
+    src: url('/fonts/megan_june.otf') format('opentype');
+}
+
+body {
+    font-family: 'megan_june', sans-serif;
+    background-image: url("images/Logo.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #cb2845;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.barre {
+    color: #e099c1;
+    text-align: center;
+    font-size: 140%;
+    background-color: white;
+    color: #e099c1;
+    border: 2px solid #ce478f;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 2px solid #e099c1;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 2%;
+}
+
+h3 {
+    text-align: justify;
+    margin-top: 30%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-align: center;
+    color: #352b5e;
+    text-decoration: none; 
+}
+
+a:hover,
+a:visited:hover {
+    color: #cb2845;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:focus,
+a:visited:focus {
+    color: #cb2845;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: transparent;
+    outline-color: #e099c1;
+}
+
+a:active {
+    background-color: white;
+    color: #cb2845;
+}
+
+a:visited {
+    color: #352b5e;
+}
+
+em {
+    font-style: normal; 
+    color: #ce478f;
+    font-weight: 700;
+}
+
+.parcours {
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+  }
+  
+  footer a {
+    display: inline-block;
+    margin: 0 5px; /* Espacement entre les réseaux sociaux */
+  }
+  
+  footer img {
+    margin-top: 50px;
+    width: 50px; 
+    height: 50px;
+  }
+  
+
+.graphisme {
+    margin: 20px;
+    text-align: center;
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: white;
+    color: #e099c1;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 8em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid #e099c1;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.images img {
+    margin: 0 5em;
+}
