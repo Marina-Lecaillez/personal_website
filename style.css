@@ -59,7 +59,7 @@ img {
 a {
     text-align: center;
     color: #352b5e;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 a:hover,
@@ -88,7 +88,7 @@ a:visited {
 }
 
 em {
-    font-style: normal; 
+    font-style: normal;
     color: #ce478f;
     font-weight: 700;
 }
@@ -101,19 +101,20 @@ em {
 
 footer {
     text-align: center;
-  }
-  
-  footer a {
+}
+
+footer a {
     display: inline-block;
-    margin: 0 5px; /* Espacement entre les réseaux sociaux */
-  }
-  
-  footer img {
+    margin: 0 5px;
+    /* Espacement entre les réseaux sociaux */
+}
+
+footer img {
     margin-top: 50px;
-    width: 50px; 
+    width: 50px;
     height: 50px;
-  }
-  
+}
+
 
 .graphisme {
     margin: 20px;
